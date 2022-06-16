@@ -1,0 +1,88 @@
+<html>
+
+<head>
+
+    <title> Python App</title>
+    <style>
+        
+		
+       body {
+           
+            background-size: cover;
+			background-color:'"lightblue"
+			
+        }
+   
+        form {
+
+            text-align: center
+        }
+
+        input {
+
+
+            width: 50%
+        }
+
+        input[type=submit] {
+
+            background-color: green;
+            color: white;
+            width: 10%;
+            font-size: 15;
+        }
+
+
+
+        label {
+
+
+            font-size: 15px;
+            display: inline-block;
+            width: 250px;
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1> Generate QRCode</h1< /center>
+
+
+             
+            <form action="{{ url_for('generate')}}" method="post">
+
+                <label for='fnum'>Paste Link</label>
+                <input type='text' id='fnum' , name='fn' ,required='required' , placeholder='Enter link to your business'
+                    </input>
+                <br></br>
+
+
+
+
+
+
+
+                <label></label>
+                <input id='submit' type='submit' value='Generate'></input>
+
+            </form>
+
+            <br></br>
+               <center><p>{{ results }}<p></center>
+
+
+<br></br>
+<br></br>
+        <p>©2022 Victor Okon</p>
+
+    
+
+
+
+
+
+
+</html>
