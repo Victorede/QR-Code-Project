@@ -1,6 +1,6 @@
 import qrcode
 from flask import *
-import base64
+
 
 app = Flask(__name__)
 
