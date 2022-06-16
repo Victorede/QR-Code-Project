@@ -1,0 +1,14 @@
+
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn>=0.18
+matplotlib>=1.4.3
+pandas>=0.19
+gunicorn
+Flask==2.1.2
+Werkzeug==2.0.2
+gspread==3.6.0
+requests==2.28.0
